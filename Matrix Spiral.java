@@ -8,12 +8,15 @@ System.out.print("Enter m : ");
 int m = sc.nextInt();
 System.out.print("Enter n : ");
 int n = sc.nextInt();
-char[][] spiral = new char[m][n];
+    
+//Declaring 2D Array
+int[][] spiral = new int[m][n];
 //Input
 for(int i=0; i<m; i++){
     for(int j=0; j<n; j++){
 System.out.print("Enter value at ["+i+"]["+j+"] : ");
-spiral[i][j] = sc.next().charAt(0);
+//Take only int matrix
+spiral[i][j] = sc.nextInt();
            }
 System.out.println();
         }
