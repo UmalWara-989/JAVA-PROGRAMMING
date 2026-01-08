@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Arrays {
+public class Array_Search {
     public static void main(String[] args) {
 //Searching element in  a matrix
 Scanner sc = new Scanner(System.in);
