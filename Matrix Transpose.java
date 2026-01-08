@@ -17,6 +17,7 @@ char[][] transpose = new char[m][n];
 for(int i = 0; i < m; i++){
   for(int j = 0; j < n; j++){
     System.out.print("Enter value at [" + i + "][" + j + "] : ");
+//Take only one character at a particular index
       transpose[i][j] = sc.next().charAt(0);
             }
 System.out.println();
