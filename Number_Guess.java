@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Games {
+public class Number_Guess {
 public static void main(String[] args){
 // Number guessing game
 Scanner sc = new Scanner(System.in);
