@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Arrays {
+public class Matrix_Transpose {
 public static void main(String[] args) {
 // Transpose of a Matrix
 Scanner sc = new Scanner(System.in);
