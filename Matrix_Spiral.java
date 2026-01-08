@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Arrays {
+public class Matrix_Spiral {
 public static void main(String[] args) {
 //Spiral order matrix
 Scanner sc = new Scanner(System.in);
