@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Arrays {
+public class Array_Sort_Check {
     public static void main(String[] args) {
 // Check Sorting of an Array
 Scanner sc = new Scanner(System.in);     
