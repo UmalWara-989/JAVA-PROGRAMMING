@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Main {
+public class Number_Analysis {
     public static void main(String[] args){
 //checking frequency of numbers
   double num;
