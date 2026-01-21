@@ -33,6 +33,6 @@ System.out.println("Sorted in Ascending order");}
     else {
        System.out.println("Neither in Ascending nor in Descending order");
         }
+         sc.close();
     }
-    sc.close();
 }
