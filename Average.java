@@ -24,6 +24,7 @@ c=sc.nextFloat();
   
 // Average Function call
 Average(a,b,c);
+sc.close();
 }
 }
   
