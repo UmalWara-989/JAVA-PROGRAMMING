@@ -1,4 +1,3 @@
-import java.util.HashSet;
 import java.util.Scanner;
 public class Recursion_Duplicates_Analysis {
 
@@ -40,13 +39,11 @@ public class Recursion_Duplicates_Analysis {
 public static void main(String[] args) {
 Scanner sc = new Scanner(System.in);
 
-// Subsequences() Function call
-System.out.print("Enter String : ");
-String s = sc.nextLine();
-
-// To take unique values
-HashSet<String> set = new HashSet<>();
-Subsequences(s,0," ",set);
-sc.close();
+// Remove() Function call
+ System.out.print("Enter String : ");
+ String s = sc.nextLine();
+ 
+ Remove(s,0,"");
+ sc.close();
 }
   }
